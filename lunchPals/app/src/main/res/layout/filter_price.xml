@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textMin"/>
+
+    <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+        android:id="@+id/rangeSeekbar"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        app:min_value="1"
+        app:max_value="4"
+        app:data_type="_integer"
+        app:bar_color="@color/colorPrimaryDark"
+        app:bar_highlight_color="@color/colorPrimary"
+        app:left_thumb_color="@color/colorPrimary"
+        app:right_thumb_color="@color/colorPrimary"
+        app:left_thumb_color_pressed="@color/colorPrimaryDark"
+        app:right_thumb_color_pressed="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textMax"/>
+
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="white">#FFF</color>
+    <color name="whiteTrans">#99FFFFFF</color>
+    <color name="red">#993333</color>
+    <color name="colorControlNormal">#666666</color>
+    <color name="colorControlActivated">#4aa879</color>
+    <color name="colorPrimary">#4aa879</color>
+    <color name="colorPrimaryDark">#266452</color>
+    <color name="colorAccent">#4aa879</color>
+    <color name="loginBackground">#4aa879</color>
+    <color name="FacebookBlue">#3b5998</color>
+    <color name="colorDarkTransparent">#99333333</color>
+    <color name="colorLightGrey">#AA666666</color>
+</resources>

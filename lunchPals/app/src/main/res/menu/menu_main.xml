@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_menu"
+    android:layout_height="match_parent"
+    android:layout_width="240dp"
+    android:choiceMode="singleChoice"
+    android:layout_gravity="start">
+
+    <item
+        android:id="@+id/action_pals"
+        android:title="Lunch Pals"
+        android:icon="@drawable/ic_action_home"
+        />
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_action_profile"
+        />
+
+    <item
+        android:id="@+id/action_chat"
+        android:title="Filter"
+        android:icon="@drawable/ic_action_filter"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_action_settings"
+        />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_action_logout"
+        />
+
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Lunch Pals</string>
+    <string name="Hi">Hi</string>
+    <string name="group_size">Group Size</string>
+    <string name="user_name">User Name</string>
+    <string name="location_name">Location</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="cuisine">Cuisines</string>
+    <string name="price">Price Range</string>
+    <string name="radius">Radius</string>
+    <string name="user_profile_picture">User Profile Picture</string>
+    <string name="user_checked">User Checkmark</string>
+    <string name="searching_for_match">Searching for Match...</string>
+    <string name="cancel_searching">Cancel Searching</string>
+    <string name="really_want_to_cancel_searching">Do you want to cancel searching? You will lose your current matching progress.</string>
+    <string name="match">MATCH</string>
+    <string name="looking_for">You\'re looking for:</string>
+    <string name="all_cuisines">All Cuisines</string>
+    <string name="full_price_range">Full Price Range</string>
+    <string name="max_radius">Maximum Radius</string>
+    <string name="consider_changing_filters">To get more restaurants, you may consider to change your filters.</string>
+    <string name="filter_need_to_be_changed">To get more restaurants, you need to change your filters.</string>
+    <string name="no_restaurants_found">Could\'nt find any restaurants.</string>
+    <string name="continue_searching">Continue searching</string>
+    <string name="back_and_change_filters">Back and change filters</string>
+    <string name="few_restaurants_found">Found few restaurants</string>
+    <string name="password">Password</string>
+    <string name="mailexample">name@example.com</string>
+    <string name="sign_up_with_email">Email Sign Up</string>
+    <string name="showLocation">Get Directions</string>
+</resources>

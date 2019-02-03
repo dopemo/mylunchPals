@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "455509781308",
+    "firebase_url": "https://lunchpals-6ec81.firebaseio.com",
+    "project_id": "lunchpals-6ec81",
+    "storage_bucket": "lunchpals-6ec81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455509781308:android:a60b6bdb42e3afd5",
+        "android_client_info": {
+          "package_name": "com.lunchpals.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455509781308-pfdksnhjh5jd9lp543o6vt9bj70806hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf5agq_urPllbDOCS6kpHOLU0Bq47Gom0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

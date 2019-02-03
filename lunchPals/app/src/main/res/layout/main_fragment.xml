@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/home_screen_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="50">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_action_profile_pic"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_name"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:textSize="28sp"
+            android:layout_below="@+id/profile_picture"/>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/user_name">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_action_location"/>
+
+            <TextView
+                android:id="@+id/location_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_name"
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+        
+    <LinearLayout
+        android:id="@+id/filter_information"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:layout_weight="30">
+
+        <TextView
+            android:id="@+id/filter_information_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/looking_for"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/filter_information_cuisines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_cuisines"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorLightGrey"/>
+
+        <TextView
+            android:id="@+id/filter_information_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/full_price_range"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorLightGrey"/>
+
+        <TextView
+            android:id="@+id/filter_information_radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/max_radius"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorLightGrey"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/match_me_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/match"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
